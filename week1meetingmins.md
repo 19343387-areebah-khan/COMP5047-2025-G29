@@ -1,5 +1,5 @@
 # COMP5047 Applied Software Engineering  
-## Group G29 – Week 1 Meeting Agenda & Minutes  
+## Group 29 – Week 1 Meeting Agenda & Minutes  
 
 **Date:** 23/09/25  
 **Time:** 15:00–14:00  
