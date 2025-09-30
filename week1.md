@@ -1,119 +1,97 @@
----
+# COMP5047 Applied Software Engineering  
+## Group Gxx – Week 1 Meeting Agenda & Minutes  
 
-# Week One Meeting Notes
+**Date:** 23/09/25  
+**Time:** 15:00–14:00  
+**Location:** Google Meet  
 
----
+**Attendees:**  
+- David Gaman (19238600)  
+- Aziz Hussein Boakye (19067039)  
+- Areebah Khan (19343387)  
+- Daniil Tkachenko (19323083)  
 
-**Date:** 30/09/25
-
-
-**Time:** 12:00-13:00
-
-
-**Location:** Google Meet
-
-
-**Attendees:** David Gaman (19238600), Aziz Hussein Boakye (19067039), Areebah Khan (19343387), Daniil Tkachenko (19323083)
+All present 
 
 ---
 
 ## Agenda
 
-1. Decide who is working on which subsystem. 
-2. Each member to report to the group the functional requirements of the selected subsystem
-3. Discuss what are the data required by one subsystem - provided by other subsystems. 
+1. Team introductions & exchange of contact details.  
+2. Decide on group communication platform (e.g., WhatsApp, Teams, Discord).  
+3. Decide on project management structure (team leader or rotating leadership).  
+4. Set fixed weekly meeting time and day.  
+5. Assign subsystems to each member:
+   - **USU Student App:** Daniil  
+   - **Student Union Management System:** Aziz  
+   - **USU Operation System:** Areebah  
+   - **Society Leader App:** David  
+6. Each member reports on the **functional requirements** of their chosen subsystem.  
+7. Group discussion on **data dependencies between subsystems**.  
+8. Set up GitHub repository and agree on usage.  
+
+
 ---
 
 <details>
-<summary>Allocation of Tasks</summary>
+<summary>Progress Since Last Meeting</summary>
 
-  **USU Student App:** Daniil
-
-  **Student Union Management System:** Aziz
-
-  **USU Operation System:** Areebah 
-  
-  **Society Leader App:** David
+- First official meeting; no prior actions.  
 
 </details>
 
+---
+
 <details>
-<summary>Functional requirements of subsystems</summary>
+<summary>Key Decisions</summary>
 
-# Functional Requirements 
+- **Communication:** Group WhatsApp created for fast communication.  
+- **Leadership:** Areebah for now   
+- **Weekly Meeting:** Agreed to meet every Tuesday at 15:00.  
+- **Subsystem Allocation:**  
+  - Daniil → USU Student App  
+  - Aziz → Student Union Management System  
+  - Areebah → USU Operation System  
+  - David → Society Leader App  
 
-Outline the functional requirements for the four subsystems within the University Student Union (USU) ecosystem.
-
----
-
-## 1. USU Student App (Mobile)
-**Goal:** Enable students to participate in student union activities.
-
-### Functional Requirements
-- **User Registration & Login** – authenticate with university credentials.  
-- **Profile Management** – edit personal info, student ID, interests, society memberships.  
-- **Activity Browsing** – view upcoming student union events, meetings, and activities.  
-- **Event Participation** – register, join waitlists, cancel participation.  
-- **Notifications & Reminders** – push notifications for events, updates, and news.  
-- **Feedback & Surveys** – submit event feedback and surveys.  
-- **Communication** – in-app chat/forum with societies and event organizers.  
-- **Payments** – pay event fees, memberships, or merchandise.  
-- **Calendar Integration** – sync events with personal calendars.  
+</details>
 
 ---
 
-## 2. Student Union Management System (Web)
-**Goal:** Allow officers of a university-specific student union to manage and operate the union.
+<details>
+<summary>Discussion</summary>
 
-### Functional Requirements
-- **Officer Account Management** – role-based access control for officers.  
-- **Event & Activity Management** – create, edit, publish, or cancel events.  
-- **Membership Management** – track student memberships and attendance.  
-- **Resource & Facility Booking** – manage rooms, venues, and equipment reservations.  
-- **Finance Management** – budgeting, expenses, and ticketing revenue.  
-- **Reporting & Analytics** – attendance, event popularity, financial reports.  
-- **Document Management** – store meeting minutes, policies, and society records.  
-- **Communication** – send announcements to students and society leaders.  
-- **Approval Workflows** – approve event proposals, funding requests, or society registrations.  
+- Each member presented **functional requirements** of their subsystem based on the case study.  
+- Identified **data dependencies between subsystems**, for example:  
+  - Student App requires event & society data from both Union Management and Society Leader App.  
+  - Society Leader App requires approval data from Union Management System.  
+  - Union Management System requires membership approvals from USU Operation System.  
+  - USU Operation System requires union event data from Union Management System.  
+
+</details>
 
 ---
 
-## 3. USU Operation System (Web)
-**Goal:** Manage the federation of student unions and enable federation-level functions.
+<details>
+<summary>Actions Agreed</summary>
 
-### Functional Requirements
-- **Federation-Level User Management** – manage accounts for all student unions.  
-- **Union Performance Monitoring** – collect activity and participation data.  
-- **Funding Allocation** – distribute federation-level grants and sponsorships.  
-- **Policy & Governance Management** – publish regulations, bylaws, and strategies.  
-- **Cross-Union Event Coordination** – organize federation-wide campaigns and conferences.  
-- **Analytics & Benchmarking** – compare unions by performance and participation.  
-- **Communication Tools** – broadcast announcements to union officers.  
-- **Reporting System** – generate annual and quarterly reports.  
-- **Issue Tracking** – manage complaints, appeals, and escalated issues.  
+- **All Members:** Upload functional requirements of assigned subsystem to GitHub (individual repos).  
+- **Team Leader:** Create shared GitHub repo for coursework and add members.  
+- **All Members:** Clone repo and upload Week 1 meeting notes.  
+
+</details>
 
 ---
 
-## 4. Society Leader App (Mobile + Web)
-**Goal:** Enable society leaders to organize and operate societies.
+<details>
+<summary>Issues Raised</summary>
 
-### Functional Requirements
-- **Society Administration** – manage society profile, mission, and contact info.  
-- **Membership Management** – approve/reject members, track participation.  
-- **Event Management** – plan and publish society-specific events.  
-- **Communication** – message members, send group announcements.  
-- **Finance Management** – track fees, event budgets, sponsorships.  
-- **Document Storage** – upload constitutions, reports, and minutes.  
-- **Collaboration Tools** – assign officer roles and responsibilities.  
-- **Reporting to Student Union** – submit proposals and required reports.  
-- **Integration with Student App** – ensure society events are visible to members.  
+- None at this stage.  
+
+</details>
 
 ---
 
-## Summary
-- **Student App** → Participation & engagement.  
-- **Union Management System** → Administration of one union.  
-- **USU Operation System** → Federation-level oversight.  
-- **Society Leader App** → Society-level organization.
+**Prepared by:** Areebah Khan 
+**Date of Writing:** 30/09/25 (late document but meeting did happen on 23rd)
 
- 
