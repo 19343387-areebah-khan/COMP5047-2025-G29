@@ -114,4 +114,6 @@ Outline the functional requirements for the four subsystems within the Universit
 - **Student App** → Participation & engagement.  
 - **Union Management System** → Administration of one union.  
 - **USU Operation System** → Federation-level oversight.  
-- **Society Leader App** → Society-level organization.  
+- **Society Leader App** → Society-level organization.
+
+ 
