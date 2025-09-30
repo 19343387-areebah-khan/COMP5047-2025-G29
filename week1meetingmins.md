@@ -1,5 +1,5 @@
 # COMP5047 Applied Software Engineering  
-## Group Gxx – Week 1 Meeting Agenda & Minutes  
+## Group G29 – Week 1 Meeting Agenda & Minutes  
 
 **Date:** 23/09/25  
 **Time:** 15:00–14:00  
@@ -92,6 +92,6 @@ All present
 
 ---
 
-**Prepared by:** Areebah Khan 
+**Prepared by:** Areebah 
 **Date of Writing:** 30/09/25 (late document but meeting did happen on 23rd)
 
